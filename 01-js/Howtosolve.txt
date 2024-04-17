@@ -1,0 +1,6 @@
+1. Go to 01-js directory using cd command
+2. Type npx jest ./tests/"Assignment_name".test.js and press enter
+
+For example:-
+PS C:\Users\KUSHAGRA WADHWA\Desktop\100xDevs> cd 01-js
+PS C:\Users\KUSHAGRA WADHWA\Desktop\100xDevs\01-js> npx jest ./tests/findLargestElement.test.js    
