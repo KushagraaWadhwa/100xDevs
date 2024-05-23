@@ -4,7 +4,13 @@
  * the function should return a promise just like before
  */
 
-function sleep(milliseconds) {
+function sleep(ms) {
+    return new Promise((resolve) => {
+        const start = Date.now();
+        while (Date.now() - start < ms) {   // the loop keeps on waiting till it reaches the specified milliseconds that is it stays busy during that time and the JS thread is not passed anywhere else
+        }
+        resolve();
+    });
 }
 
 module.exports = sleep;

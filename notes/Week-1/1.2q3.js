@@ -9,6 +9,6 @@ complexobj=[{'firstname':'Rahul',
             ]
 for(let i=0;i<complexobj.length;i++){
     if(complexobj[i].gender=='M'){
-        console.log(complexobj[i].gender)
+        console.log(complexobj[i].firstname)
     }   
 }

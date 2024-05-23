@@ -11,6 +11,7 @@
 //   return (b.toLowerCase()===str.toLowerCase());
 // } 
 //not passing all the test cases because of presence of alphanumeric characters in few cases
+
 function isPalindrome(str) {
   let cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, ''); // Remove non-alphanumeric characters
   let reversedStr = cleanStr.split('').reverse().join('');
@@ -18,3 +19,4 @@ function isPalindrome(str) {
 }
 
 module.exports = isPalindrome;
+

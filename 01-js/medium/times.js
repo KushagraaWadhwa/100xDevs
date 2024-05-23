@@ -17,7 +17,7 @@ function calculateTime(n) {
 }
 const beforeDate=new Date;
 const beforetimeinms=beforeDate.getTime();
-calculateTime(10000000)
+calculateTime(12091731)
 const afterDate=new Date;
 const afterimeinms=afterDate.getTime();
 
