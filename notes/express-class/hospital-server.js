@@ -1,11 +1,12 @@
 /*Your logic is like a doctor
-GET:Going for a conusltation to get checkup(Fetching)
-POST:Going to get a new kidney iserted(Inserting)
-PUT: Going to get a kidney replaced(Updating)
-DELETE: Going to get the kidney removed(Deleting)
+GET:Going for a conusltation to get checkup(Fetching..)
+POST:Going to get a new kidney iserted(Inserting..)
+PUT: Going to get a kidney replaced(Updating..)
+DELETE: Going to get the kidney removed(Deleting..)
+
 STATUS CODES:-
 200- Eveything went fine(Successful request)
-404- Doctor is not av available(Not Found)
+404- Doctor is not available(Not Found)
 500- Mid surgery light went away(Server error)
 411- Inputes were incorrect, wrong patient came to surgery(Unprocessable Entity) 
 403- You were not allowed in the hospital(Forbidden request)
@@ -20,6 +21,7 @@ app.use(express.json());
 app.get("/",function(req,res){
     const johnKidneys=users[0].kidneys; 
     const numberOfKidneys=johnKidneys.length;
+    length=getkidneys.length();
     let numOfHealthyKidneys=0;
     for(let i=0;i<numberOfKidneys;i++){
         if(johnKidneys[i].healthy){
